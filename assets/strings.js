@@ -41,11 +41,11 @@ console.log("Strings");
     nueva variable (utilizar substring, toUpperCase, toLowerCase y el operador +).
 */
 
-var word4 = "evangelina";
+    var word4 = "evangelina";
 
-var toUplo = (word4.substring(0, 1)).toUpperCase() + (word4.substring(1,word4.length)).toLowerCase();
+    var toUplo = (word4.substring(0, 1)).toUpperCase() + (word4.substring(1,word4.length)).toLowerCase();
 
-console.log("Exercise d: "+ toUplo);
+    console.log("Exercise d: "+ toUplo);
 
 /*
     Exercise e
@@ -53,11 +53,11 @@ console.log("Exercise d: "+ toUplo);
     Encontrar la posición del primer espacio en blanco y guardarla en una variable (utilizar indexOf).
 */
 
-var word5 = "Radium Rocket";
+    var word5 = "Radium Rocket";
 
-var white = word5.indexOf(" ");
+    var white = word5.indexOf(" ");
 
-console.log("Exercise e: "+ white);
+    console.log("Exercise e: "+ white);
 
 /* 
     Excercise f
@@ -67,8 +67,8 @@ console.log("Exercise e: "+ white);
     (utilizar indexOf, substring, toUpperCase, toLowerCase y el operador +).
 */
 
-var word6 = "developers javascript";
+    var word6 = "developers javascript";
 
-var conver =  (word6.substring(0, 1)).toUpperCase() + (word6.substring(1, word6.indexOf(" "))).toLowerCase() + (word6.substring(word6.indexOf(" "),word6.indexOf(" ")+2)).toUpperCase() + (word6.substring(word6.indexOf(" ")+2, word6.length)).toLowerCase();
+    var conver =  (word6.substring(0, 1)).toUpperCase() + (word6.substring(1, word6.indexOf(" "))).toLowerCase() + (word6.substring(word6.indexOf(" "),word6.indexOf(" ")+2)).toUpperCase() + (word6.substring(word6.indexOf(" ")+2, word6.length)).toLowerCase();
 
-console.log("Exercise f: " + conver);
+    console.log("Exercise f: " + conver);
