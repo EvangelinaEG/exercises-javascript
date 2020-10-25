@@ -2,7 +2,9 @@ console.log("If - Else");
 
 /*
     Exercise a
-    Crear un número aleatorio entre 0 y 1 utilizando la función Math.random(), si el valor es mayor o igual que 0,5 mostrar una alerta con el mensaje “Greater than 0,5” y sino un alerta con el mensaje “Lower than 0,5”
+    Crear un número aleatorio entre 0 y 1 utilizando la función Math.random(), si el valor 
+    es mayor o igual que 0,5 mostrar una alerta con el mensaje “Greater than 0,5” y sino un 
+    alerta con el mensaje “Lower than 0,5”
 */
 
     var num = Math.random();
@@ -18,7 +20,9 @@ console.log("If - Else");
     }
 /*
     Exercise b
-    Crear una variable “Age” que contenga un número entero entre 0 y 100 y muestre los siguientes mensajes de alerta:
+    Crear una variable “Age” que contenga un número entero entre 0 y 100 y muestre
+    los siguientes mensajes de alerta:
+
         “Bebe” si la edad es menor a 2 años
         “Nino” si la edad es entre 2 y 12 años
         “Adolecente” si la edad es entre 13 y 19 años

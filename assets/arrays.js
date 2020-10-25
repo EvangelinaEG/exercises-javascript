@@ -2,7 +2,8 @@ console.log("Arrays");
 
 /*
     Exercise a
-    Dado el siguiente array: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"] mostrar por consola los meses 5 y 11 (utilizar console.log)
+    Dado el siguiente array: 
+    ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"] mostrar por consola los meses 5 y 11 (utilizar console.log)
 
 */
 
@@ -31,8 +32,10 @@ console.log("Arrays");
     console.log("Exercise c: "+ months );
 
 /*
-Exercise d
-Quitar un elemento del principio y del final del array (utilizar shift y pop).
+
+    Exercise d
+    Quitar un elemento del principio y del final del array (utilizar shift y pop).
+
 */
 
     months.shift();
@@ -42,23 +45,28 @@ Quitar un elemento del principio y del final del array (utilizar shift y pop).
     console.log("Exercise d: "+ months);
 
 /*
-Exercise e
-Invertir el orden del array (utilizar reverse)
+
+    Exercise e
+    Invertir el orden del array (utilizar reverse)
 
 */
 
     console.log("Exercise e: "+ months.slice().reverse());
 
 /*
-Exercise f
-Unir todos los elementos del array en un único string donde cada mes este separado por un guión - (utilizar join).
+
+    Exercise f
+    Unir todos los elementos del array en un único string donde cada mes 
+    este separado por un guión - (utilizar join).
+
 */
 
     console.log("Exercise f: "+ months.join("-"));
 
 /*
-Exercise g
-Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice).
+
+    Exercise g
+    Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice).
 
 */
 

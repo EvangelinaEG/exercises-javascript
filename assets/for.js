@@ -16,3 +16,18 @@ console.log("For");
         alert(fruits[i]);
 
     }
+
+/*
+    Exercise 5-b
+    Al array anterior convertir la primera letra de cada palabra en mayúscula y mostrar una 
+    alerta por cada palabra modificada.
+
+*/
+    alert("Exercise 5-b");
+
+    for(var i = 0; i < 5; i++){
+
+            var newword = fruits[i][0].toUpperCase()+(fruits[i].substring(1,word4.length)).toLowerCase();
+            alert(newword);
+
+    }
