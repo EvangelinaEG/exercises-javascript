@@ -16,7 +16,7 @@ console.log("Arrays");
 
 */
 
-console.log("Exercise b: "+ months.slice().sort());
+    console.log("Exercise b: "+ months.slice().sort());
 
 /*
     Exercise c
@@ -24,9 +24,9 @@ console.log("Exercise b: "+ months.slice().sort());
 
 */
 
-months.unshift("Months");
+    months.unshift("Months");
 
-months.push("finish");
+    months.push("finish");
 
-console.log("Exercise c: "+ months );
+    console.log("Exercise c: "+ months );
 
