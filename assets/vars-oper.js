@@ -1,4 +1,4 @@
-console.log("Vars and operators")
+console.log("Vars and operators");
 
 //Exercise a
 /*
