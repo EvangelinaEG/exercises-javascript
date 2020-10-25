@@ -10,3 +10,11 @@ console.log("Arrays");
 
     console.log("Exercise a: "+ "Month 5: "+ months[4] + " Month 11: " + months[10]);
 
+/*
+    Exercise b
+    Ordenar el array de meses alfabéticamente y mostrarlo por consola (utilizar sort).
+
+*/
+
+console.log("Exercise b: "+ months.slice().sort());
+
