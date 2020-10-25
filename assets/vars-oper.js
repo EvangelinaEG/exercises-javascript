@@ -10,3 +10,17 @@ console.log("Vars and operators")
     var c = a + b;
     console.log("Exercise a: "+c);
 
+//Exercize b
+/*
+    Crear dos variables de tipo String y concatenarlas guardando el resultado en una 3er variable.
+*/
+    var d = "hello";
+    var e = "world";
+
+    var f = d + " " +e;
+    console.log("Exercise b: "+ f);
+
+
+
+
+
