@@ -30,9 +30,9 @@ console.log("Funciones");
 
     function sumaupd(c, d){
 
-            if(!isNaN(c)){
+            if(!isNaN(c) && typeof(c) === 'number'){
 
-                if(!isNaN(d)){
+                if(!isNaN(d) && typeof(d) === 'number'){
 
                     var result = c + d;
 
@@ -77,3 +77,54 @@ console.log("Funciones");
     }
 
     console.log("Exercise 6-c: " + validateInteger(6));
+
+/*
+
+    Exercise 6-d
+    A la función suma del ejercicio 6b) agregarle una llamada que valide que los números sean enteros. 
+    En caso que haya decimales mostrar un alerta con el error y retorna el número convertido 
+    a entero (redondeado).
+
+*/
+
+    function sumaupd(c, d){
+
+        if(!isNaN(c) && typeof(c) === 'number'){
+
+            if (Number.isInteger(c)){
+
+                if(!isNaN(d) && typeof(d) === 'number'){
+
+                    if (Number.isInteger(d)){
+
+                        var result = c + d;
+
+                        return result;     
+
+                    }else{
+
+                        return ("Error: "+ d + " is not integer. Use: " + Math.round(d));        
+
+                    }
+
+                }else{
+
+                    return ("the value "+ d + " is not numeric ");
+
+                }
+
+            }else{
+
+                return ("Error: " + c + " id not integer. Use: " + Math.round(c));
+
+            }
+
+        }else{
+
+            return ("the value " + c + " is not numeric ");
+
+        }   
+
+    }
+
+    console.log("Exercise 6-d: " + sumaupd(2, 0.5));
