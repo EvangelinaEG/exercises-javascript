@@ -9,11 +9,11 @@ console.log("If - Else");
 
     if(num >= 0,5){
 
-        alert("Greater than 0,5");
+        alert("Exercise 4-a: Greater than 0,5");
 
     }else{
 
-        alert("Lower than 0,5");
+        alert("Exercise 4-a: Lower than 0,5");
 
     }
 /*
@@ -30,56 +30,56 @@ console.log("If - Else");
  */
 
     var age =  Math.floor(Math.random()*(100+1));
-    
+
     if(age < 0){
 
-        alert("incorrect age");
+        alert("Exercise 4-b: incorrect age");
 
     }else if(age < 2){
 
-        alert("Bebé");
+        alert("Exercise 4-b: Bebé");
 
     }
 
     else if(age < 13){
 
-        alert("Nino");
+        alert("Exercise 4-b: Nino");
 
     }
 
     else if(age < 20){
 
-        alert("Adolescente");
+        alert("Exercise 4-b: Adolescente");
 
     }
 
     else if(age < 31){
 
-        alert("Jóven");
+        alert("Exercise 4-b: Jóven");
 
     }
 
     else if(age < 61){
 
-        alert("Adulto");
+        alert("Exercise 4-b: Adulto");
 
     }
 
     else if(age < 76){
 
-        alert("Adulto mayor");
+        alert("Exercise 4-b: Adulto mayor");
 
     }
 
     else if(age < 101){
 
-        alert("Anciano");
+        alert("Exercise 4-b: Anciano");
 
     }
 
     else{
 
-        alert("Incorrect age");
+        alert("Exercise 4-b: Incorrect age");
 
     }
 
