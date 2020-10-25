@@ -50,3 +50,16 @@ Invertir el orden del array (utilizar reverse)
     console.log("Exercise e: "+ months.slice().reverse());
 
 /*
+Exercise f
+Unir todos los elementos del array en un único string donde cada mes este separado por un guión - (utilizar join).
+*/
+
+    console.log("Exercise f: "+ months.join("-"));
+
+/*
+Exercise g
+Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice).
+
+*/
+
+    console.log("Exercise g: "+ months.slice(4, 11));
