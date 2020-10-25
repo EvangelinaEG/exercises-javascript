@@ -20,7 +20,15 @@ console.log("Vars and operators")
     var f = d + " " +e;
     console.log("Exercise b: "+ f);
 
+//Exercise c
+/*
+    Crear dos variables de tipo String y sumar el largo de cada variable (cantidad de letras del string) guardando el resultado la suma una 3er variable (utilizar length).
+*/
+    var g = "hello".length;
+    var h = "world".length;
 
+    var i = g+h;
+    console.log("Exercise c: "+i);
 
 
 
