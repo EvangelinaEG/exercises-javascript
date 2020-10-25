@@ -18,3 +18,15 @@ console.log("Arrays");
 
 console.log("Exercise b: "+ months.slice().sort());
 
+/*
+    Exercise c
+    Agregar un elemento al principio y al final del array (utilizar unshift y push).
+
+*/
+
+months.unshift("Months");
+
+months.push("finish");
+
+console.log("Exercise c: "+ months );
+
