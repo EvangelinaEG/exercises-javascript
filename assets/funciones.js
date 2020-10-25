@@ -8,20 +8,48 @@ console.log("Funciones");
 
 */
 
-    function suma(a = null, b = null){
-
-        if((isNaN(a) && isNaN(b)) || a != null || b != null ){
+    function suma(a, b){
 
             var result = a + b;
 
             return result;     
 
-        }else{
-
-            console.log("Los valores recibidos no son numericos o son nulos");
-
-        }
-
     }
 
     console.log("Exercise 6-a: " + suma(5, 7));
+
+/*
+
+    Exercise 6-b
+    A la función suma anterior, agregarle una validación para controlar si alguno de los
+    parámetros no es un número, mostrar una alerta aclarando que uno de los parámetros tiene 
+    error y retornar el valor NaN como resultado.
+
+*/
+
+
+    function sumaupd(c, d){
+
+            if(!isNaN(c)){
+
+                if(!isNaN(d)){
+
+                    var result = c + d;
+
+                    return result;     
+
+                }else{
+
+                    return ("the value "+ d + " is not numeric ");
+
+                }
+
+            }else{
+
+                return ("the value " + c + " is not numeric ");
+
+            }   
+
+    }
+
+    console.log("Exercise 6-b: " + sumaupd(2, 5));
