@@ -87,7 +87,7 @@ console.log("Funciones");
 
 */
 
-    function sumaupd(c, d){
+    function sumaInteger(c, d){
 
         if(!isNaN(c) && typeof(c) === 'number'){
 
@@ -127,4 +127,54 @@ console.log("Funciones");
 
     }
 
-    console.log("Exercise 6-d: " + sumaupd(2, 0.5));
+    console.log("Exercise 6-d: " + sumaInteger(2, 0.5));
+
+/*
+
+    Exercise 6-f
+    Convertir la validación del ejercicio 6b) en una función separada y llamarla dentro de 
+    la función suma probando que todo siga funcionando igual.
+
+*/
+
+    function sumaValidate(c, d){
+
+        if(!isNaN(c) && typeof(c) === 'number'){
+
+            if (validateInteger(c)){
+
+                if(!isNaN(d) && typeof(d) === 'number'){
+
+                    if (validateInteger(d)){
+
+                        var result = c + d;
+
+                        return result;     
+
+                    }else{
+
+                        return ("Error: "+ d + " is not integer. Use: " + Math.round(d));        
+
+                    }
+
+                }else{
+
+                    return ("the value "+ d + " is not numeric ");
+
+                }
+
+            }else{
+
+                return ("Error: " + c + " id not integer. Use: " + Math.round(c));
+
+            }
+
+        }else{
+
+            return ("the value " + c + " is not numeric ");
+
+        }   
+
+    }
+
+    console.log("Exercise 6-e: " + sumaValidate(2, 0.9));
