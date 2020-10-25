@@ -52,4 +52,28 @@ console.log("Funciones");
 
     }
 
-    console.log("Exercise 6-b: " + sumaupd(2, 5));
+    console.log("Exercise 6-b: " + sumaupd(2, 7));
+
+/*
+
+    Exercise 6-c
+    Crear una función validate integer que reciba un número como parámetro y devuelva
+    verdadero si es un número entero.
+
+*/
+
+    function validateInteger(num){
+
+        if(Number.isInteger(num)){
+
+            return true;
+
+        }else{
+
+            return false;
+
+        }
+
+    }
+
+    console.log("Exercise 6-c: " + validateInteger(6));
