@@ -30,3 +30,14 @@ console.log("Arrays");
 
     console.log("Exercise c: "+ months );
 
+/*
+Exercise d
+Quitar un elemento del principio y del final del array (utilizar shift y pop).
+*/
+
+    months.shift();
+
+    months.pop();
+
+    console.log("Exercise d: "+ months);
+
