@@ -89,11 +89,11 @@ console.log("Funciones");
 
     function sumaInteger(c, d){
 
-        if(!isNaN(c) && typeof(c) === 'number'){
+        if(typeof(c) === 'number'){
 
             if (Number.isInteger(c)){
 
-                if(!isNaN(d) && typeof(d) === 'number'){
+                if(typeof(d) === 'number'){
 
                     if (Number.isInteger(d)){
 
