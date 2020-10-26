@@ -50,8 +50,8 @@ console.log("Arrays");
     Invertir el orden del array (utilizar reverse)
 
 */
-
-    console.log("Exercise e: "+ months.slice().reverse());
+    const myShallowCopy = Array.from(month);
+    console.log("Exercise e: " + myShallowCopy.reverse());
 
 /*
 
