@@ -7,7 +7,7 @@ console.log("Arrays");
 
 */
 
-    var months =  ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+    let months =  ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 
     console.log("Exercise a: "+ "Month 5: "+ months[4] + " Month 11: " + months[10]);
 
@@ -17,7 +17,7 @@ console.log("Arrays");
 
 */
 
-    console.log("Exercise b: "+ months.sort());
+    console.log("Exercise b: "+ months.slice().sort());
 
 /*
     Exercise c

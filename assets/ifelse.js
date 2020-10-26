@@ -7,7 +7,7 @@ console.log("If - Else");
     alerta con el mensaje “Lower than 0,5”
 */
 
-    var num = Math.random();
+    let num = Math.random();
 
     if(num >= 0,5){
 
@@ -33,7 +33,7 @@ console.log("If - Else");
 
  */
 
-    var age =  Math.floor(Math.random()*(100+1));
+    let age =  Math.floor(Math.random()*(100+1));
 
     if(age < 0){
 

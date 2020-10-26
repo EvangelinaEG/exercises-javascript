@@ -9,9 +9,9 @@ console.log("For");
 
     alert("Exercise 5-a");
 
-    var fruits = ["apple", "lemon", "mandarine", "orange", "pomelo"];
+    let fruits = ["apple", "lemon", "mandarine", "orange", "pomelo"];
 
-    for(var i = 0; i < 5; i++ ){
+    for(let i = 0; i < 5; i++ ){
 
         alert(fruits[i]);
 
@@ -25,9 +25,9 @@ console.log("For");
 */
     alert("Exercise 5-b");
 
-    for(var i = 0; i < 5; i++){
+    for(let i = 0; i < 5; i++){
 
-        var newword = fruits[i][0].toUpperCase() + (fruits[i].substring(1,fruits[i].length)).toLowerCase();
+        let newword = fruits[i][0].toUpperCase() + (fruits[i].substring(1,fruits[i].length)).toLowerCase();
 
         alert(newword);
 
@@ -43,9 +43,9 @@ console.log("For");
 */
     alert("Exercise 5-c");
 
-    var sentence = "";
+    let sentence = "";
 
-    for(var j = 0; j < 5; j++){
+    for(let j = 0; j < 5; j++){
         
         sentence += fruits[j] + " ";
 
@@ -65,9 +65,9 @@ console.log("For");
 
     console.log("Exercise 5-d");
 
-    var array = [];
+    let array = [];
 
-    for(var t=0; t < 10; t++){
+    for(let t=0; t < 10; t++){
         array.push(t);
     }
 

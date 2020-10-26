@@ -6,10 +6,10 @@ console.log("Vars and operators");
     de la suma de ambos números en una 3er variable.
 */
 
-    var num1 = 1;
-    var num2 = 2;
+    let num1 = 1;
+    let num2 = 2;
 
-    var res = num1 + num2;
+    let res = num1 + num2;
     console.log("Exercise a: "+res);
 
 /*
@@ -17,10 +17,10 @@ console.log("Vars and operators");
     Crear dos variables de tipo String y concatenarlas guardando el resultado en una 3er variable.
 */
 
-    var worda = "hello";
-    var wordb = "world";
+    let worda = "hello";
+    let wordb = "world";
 
-    var wordc = worda + " " +wordb;
+    let wordc = worda + " " +wordb;
     console.log("Exercise b: "+ wordc);
 
 /*
@@ -29,10 +29,10 @@ console.log("Vars and operators");
     guardando el resultado la suma una 3er variable (utilizar length).
 */
 
-    var worde = "hello".length;
-    var wordf = "world".length;
+    let worde = "hello".length;
+    let wordf = "world".length;
 
-    var wordr = worde + wordf;
+    let wordr = worde + wordf;
     console.log("Exercise c: " + wordr);
 
 

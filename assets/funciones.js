@@ -10,7 +10,7 @@ console.log("Funciones");
 
     function suma(a, b){
 
-            var result = a + b;
+            let result = a + b;
 
             return result;     
 
@@ -34,7 +34,7 @@ console.log("Funciones");
 
                 if(!isNaN(d) && typeof(d) === 'number'){
 
-                    var result = c + d;
+                    let result = c + d;
 
                     return result;     
 
@@ -97,7 +97,7 @@ console.log("Funciones");
 
                     if (Number.isInteger(d)){
 
-                        var result = c + d;
+                        let result = c + d;
 
                         return result;     
 
@@ -147,7 +147,7 @@ console.log("Funciones");
 
                     if (validateInteger(d)){
 
-                        var result = c + d;
+                        let result = c + d;
 
                         return result;     
 

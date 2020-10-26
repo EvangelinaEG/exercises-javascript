@@ -6,7 +6,7 @@ console.log("Strings");
     texto en mayúscula (utilizar toUpperCase).
 */
 
-    var word1 =  "radiumrocket".toUpperCase();
+    let word1 =  "radiumrocket".toUpperCase();
 
     console.log("Exercise a: "+ word1);
 
@@ -16,9 +16,9 @@ console.log("Strings");
     string con los primeros 5 caracteres guardando el resultado en una nueva variable (utilizar substring).
 */
 
-    var word2 = "Evangelina";
+    let word2 = "Evangelina";
 
-    var sub = word2.substring(0, 5);
+    let sub = word2.substring(0, 5);
 
     console.log("Exercise b: "+ sub);
 
@@ -28,9 +28,9 @@ console.log("Strings");
     con los últimos 3 caracteres guardando el resultado en una nueva variable (utilizar substring).
 */
 
-    var word3 = "radiumrocket";
+    let word3 = "radiumrocket";
 
-    var sub1 = word3.substring(word3.length - 3, word3.length);
+    let sub1 = word3.substring(word3.length - 3, word3.length);
 
     console.log("Exercise c: "+ sub1);
 
@@ -41,9 +41,9 @@ console.log("Strings");
     nueva variable (utilizar substring, toUpperCase, toLowerCase y el operador +).
 */
 
-    var word4 = "evangelina";
+    let word4 = "evangelina";
 
-    var toUplo = (word4.substring(0, 1)).toUpperCase() + (word4.substring(1,word4.length)).toLowerCase();
+    let toUplo = (word4.substring(0, 1)).toUpperCase() + (word4.substring(1,word4.length)).toLowerCase();
 
     console.log("Exercise d: "+ toUplo);
 
@@ -53,9 +53,9 @@ console.log("Strings");
     Encontrar la posición del primer espacio en blanco y guardarla en una variable (utilizar indexOf).
 */
 
-    var word5 = "Radium Rocket";
+    let word5 = "Radium Rocket";
 
-    var white = word5.indexOf(" ");
+    let white = word5.indexOf(" ");
 
     console.log("Exercise e: "+ white);
 
@@ -67,8 +67,8 @@ console.log("Strings");
     (utilizar indexOf, substring, toUpperCase, toLowerCase y el operador +).
 */
 
-    var word6 = "developers javascript";
+    let word6 = "developers javascript";
 
-    var conver =  (word6.substring(0, 1)).toUpperCase() + (word6.substring(1, word6.indexOf(" "))).toLowerCase() + (word6.substring(word6.indexOf(" "),word6.indexOf(" ")+2)).toUpperCase() + (word6.substring(word6.indexOf(" ")+2, word6.length)).toLowerCase();
+    let conver =  (word6.substring(0, 1)).toUpperCase() + (word6.substring(1, word6.indexOf(" "))).toLowerCase() + (word6.substring(word6.indexOf(" "),word6.indexOf(" ")+2)).toUpperCase() + (word6.substring(word6.indexOf(" ")+2, word6.length)).toLowerCase();
 
     console.log("Exercise f: " + conver);
