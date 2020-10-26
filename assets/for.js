@@ -27,7 +27,7 @@ console.log("For");
 
     for(var i = 0; i < 5; i++){
 
-        var newword = fruits[i][0].toUpperCase() + (fruits[i].substring(1,word4.length)).toLowerCase();
+        var newword = fruits[i][0].toUpperCase() + (fruits[i].substring(1,fruits[i].length)).toLowerCase();
 
         alert(newword);
 

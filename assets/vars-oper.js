@@ -6,22 +6,22 @@ console.log("Vars and operators");
     de la suma de ambos números en una 3er variable.
 */
 
-    var a = 1;
-    var b = 2;
+    var num1 = 1;
+    var num2 = 2;
 
-    var c = a + b;
-    console.log("Exercise a: "+c);
+    var res = num1 + num2;
+    console.log("Exercise a: "+res);
 
 /*
     Exercize b
     Crear dos variables de tipo String y concatenarlas guardando el resultado en una 3er variable.
 */
 
-    var d = "hello";
-    var e = "world";
+    var worda = "hello";
+    var wordb = "world";
 
-    var f = d + " " +e;
-    console.log("Exercise b: "+ f);
+    var wordc = worda + " " +wordb;
+    console.log("Exercise b: "+ wordc);
 
 /*
     Exercise c
@@ -29,11 +29,11 @@ console.log("Vars and operators");
     guardando el resultado la suma una 3er variable (utilizar length).
 */
 
-    var g = "hello".length;
-    var h = "world".length;
+    var worde = "hello".length;
+    var wordf = "world".length;
 
-    var i = g+h;
-    console.log("Exercise c: "+i);
+    var wordr = worde + wordf;
+    console.log("Exercise c: " + wordr);
 
 
 

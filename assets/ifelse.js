@@ -39,43 +39,43 @@ console.log("If - Else");
 
         alert("Exercise 4-b: incorrect age");
 
-    }else if(age < 2){
+    }else if(age > 0 && age <= 2){
 
         alert("Exercise 4-b: Bebé");
 
     }
 
-    else if(age < 13){
+    else if(age > 1 && age <= 12){
 
         alert("Exercise 4-b: Nino");
 
     }
 
-    else if(age < 20){
+    else if(age > 12 && age <= 19){
 
         alert("Exercise 4-b: Adolescente");
 
     }
 
-    else if(age < 31){
+    else if(age > 19 && age <= 30){
 
         alert("Exercise 4-b: Jóven");
 
     }
 
-    else if(age < 61){
+    else if(age > 30 && age <= 60){
 
         alert("Exercise 4-b: Adulto");
 
     }
 
-    else if(age < 76){
+    else if(age > 60 && age <= 75){
 
         alert("Exercise 4-b: Adulto mayor");
 
     }
 
-    else if(age < 101){
+    else if(age > 75 && age <= 100){
 
         alert("Exercise 4-b: Anciano");
 

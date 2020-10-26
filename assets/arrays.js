@@ -17,7 +17,7 @@ console.log("Arrays");
 
 */
 
-    console.log("Exercise b: "+ months.slice().sort());
+    console.log("Exercise b: "+ months.sort());
 
 /*
     Exercise c
